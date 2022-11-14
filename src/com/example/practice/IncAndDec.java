@@ -16,16 +16,13 @@ public class IncAndDec {
 
             4. Then repeat step 3 with the decrement operator
             (make sure to adjust the string output appropriately)
-
-
          */
-
-
-
-
-
-
-
+        int num = 10;
+        System.out.println("Initial value: " + num); // 10
+        num++;
+        System.out.println("Value after increment: " + num); // 11
+        num--;
+        System.out.println("Value after decrement: " + num); // 10
 
         /*
             Now, using System.out.println(), print the value of your variable as you increment it
@@ -33,7 +30,7 @@ public class IncAndDec {
             or if the returned value is not yet incremented
          */
 
-
+        System.out.println(num++); // Not yet incremented
 
 
     }
